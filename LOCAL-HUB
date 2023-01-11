@@ -118,7 +118,8 @@ Tab2:CreateLabel("Anime Evolution Simulator")
 Tab2:CreateLabel("Pickaxe Mining Simulator")
 
 local Tab3 = Window:CreateTab("Universal", 4483362458)
-local Button = Tab3:CreateButton({
+
+local Button = Tab:CreateButton({
    Name = "Universal Script",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/vabalata1/L-HUB/main/Universal"))()
