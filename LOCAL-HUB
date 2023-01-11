@@ -83,14 +83,6 @@ elseif game.PlaceId == 10446125875 then
 elseif game.PlaceId == 3956818381 then 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/XRoLLu/UWU/main/Ninja-Legenos.exe.lua",true))();
 end
-elseif Games[game.PlaceId] then
-	loadstring(game:HttpGet(Games[game.PlaceId]))()
-else
-	game.StarterGui:SetCore("SendNotification", {
-	    Title = "Perfectus Notification";
-	    Text = "Game not supported";
-	    Duration = 10;
-    })
    end
     wait(1)
     Rayfield:Destroy()
