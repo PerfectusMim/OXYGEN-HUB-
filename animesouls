@@ -1,0 +1,451 @@
+local library = loadstring(game:HttpGet(("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wall%20v3")))()
+
+local w = library:CreateWindow("Anime Souls Simulator") -- Creates the window
+
+local b = w:CreateFolder("Auto Farm") -- Creates the folder(U will put here your buttons,etc)
+
+b:Label("Made by OXYGEN",{
+    TextSize = 12; -- Self Explaining
+    TextColor = Color3.fromRGB(255,255,255); -- Self Explaining
+    BgColor = Color3.fromRGB(69,69,69); -- Self Explaining
+    
+}) 
+
+task.spawn(
+    function()
+        while task.wait() do
+            if autoClick then
+local args = {
+    [1] = {
+        [1] = "Hit",
+        [2] = workspace._ENEMIES:FindFirstChild("Titan District").jaw_giant
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+            end
+        end
+    end
+)
+
+task.spawn(
+    function()
+        while task.wait() do
+            if autoCollect then
+local args = {
+    [1] = {
+        [1] = "DailyRewards",
+        [2] = "1"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+local args = {
+    [1] = {
+        [1] = "DailyRewards",
+        [2] = "2"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+local args = {
+    [1] = {
+        [1] = "DailyRewards",
+        [2] = "3"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+local args = {
+    [1] = {
+        [1] = "DailyRewards",
+        [2] = "4"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+local args = {
+    [1] = {
+        [1] = "DailyRewards",
+        [2] = "5"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args)) 
+local args = {
+    [1] = {
+        [1] = "DailyRewards",
+        [2] = "6"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args)) 
+local args = {
+    [1] = {
+        [1] = "DailyRewards",
+        [2] = "7"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args)) 
+local args = {
+    [1] = {
+        [1] = "DailyRewards",
+        [2] = "8"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args)) 
+local args = {
+    [1] = {
+        [1] = "DailyRewards",
+        [2] = "9"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))  
+local args = {
+    [1] = {
+        [1] = "DailyRewards",
+        [2] = "10"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))   
+            end
+        end
+    end
+)
+
+task.spawn(
+    function()
+        while task.wait() do
+            if autoAchievements then
+local args = {
+    [1] = {
+        [1] = "Achievements",
+        [2] = "equips_1"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+local args = {
+    [1] = {
+        [1] = "Achievements",
+        [2] = "equips_2"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+local args = {
+    [1] = {
+        [1] = "Achievements",
+        [2] = "energy_3"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+local args = {
+    [1] = {
+        [1] = "Achievements",
+        [2] = "energy_4"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+local args = {
+    [1] = {
+        [1] = "Achievements",
+        [2] = "energy_5"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+            end
+        end
+    end
+)
+
+task.spawn(
+    function()
+        while task.wait() do
+            if reedemcode then
+local args = {
+    [1] = {
+        [1] = "Codes",
+        [2] = "freespins"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+local args = {
+    [1] = {
+        [1] = "Codes",
+        [2] = "leozimgamers"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+local args = {
+    [1] = {
+        [1] = "Codes",
+        [2] = "10KLIKES"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+local args = {
+    [1] = {
+        [1] = "Codes",
+        [2] = "1MVISITS"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+local args = {
+    [1] = {
+        [1] = "Codes",
+        [2] = "150KMEMBERS"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+local args = {
+    [1] = {
+        [1] = "Codes",
+        [2] = "200kmembers"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+local args = {
+    [1] = {
+        [1] = "Codes",
+        [2] = "l3ni"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+local args = {
+    [1] = {
+        [1] = "Codes",
+        [2] = "5kfavorites"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+local args = {
+    [1] = {
+        [1] = "Codes",
+        [2] = "10kfavorites"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+local args = {
+    [1] = {
+        [1] = "Codes",
+        [2] = "update1"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+local args = {
+    [1] = {
+        [1] = "Codes",
+        [2] = "10kactives"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+local args = {
+    [1] = {
+        [1] = "Codes",
+        [2] = "15klikes"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+local args = {
+    [1] = {
+        [1] = "Codes",
+        [2] = "OPENSAMU"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+local args = {
+    [1] = {
+        [1] = "Codes",
+        [2] = "UPD1.5"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+local args = {
+    [1] = {
+        [1] = "Codes",
+        [2] = "sorryforshutdowns"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+            end
+        end
+    end
+)
+
+task.spawn(
+    function()
+        while task.wait(5) do
+            if autoClass then
+local args = {
+    [1] = {
+    [1] = "Class"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+            end
+        end
+    end
+)
+
+b:Toggle("Auto Click",function(bool)
+    getgenv().autoClick = bool
+    if bool then
+        autoClick();
+    end
+end)
+
+b:Toggle("Auto Collect Rewards",function(bool)
+    getgenv().autoCollect = bool
+    if bool then
+        autoCollect();
+    end
+end)
+
+b:Toggle("Auto Class",function(bool)
+    getgenv().autoClass = bool
+    if bool then
+        autoClass();
+    end
+end)
+
+b:Toggle("Reedem Code",function(bool)
+    getgenv().reedemcode = bool
+    if bool then
+        reedemcode();
+    end
+end)
+
+b:Toggle("Auto Collect Achievements",function(bool)
+    getgenv().autoAchievements = bool
+    if bool then
+        autoAchievements();
+    end
+end)
+
+
+
+
+
+local c = w:CreateFolder("Boost")
+
+task.spawn(
+    function()
+        while task.wait(1) do
+            if autoboost then
+local args = {
+    [1] = {
+        [1] = "Potions",
+        [2] = "energy"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+            end
+        end
+    end
+)
+
+task.spawn(
+    function()
+        while task.wait(1) do
+            if autoboost1 then
+local args = {
+    [1] = {
+        [1] = "Potions",
+        [2] = "souls"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+            end
+        end
+    end
+)
+
+task.spawn(
+    function()
+        while task.wait(1) do
+            if autoboost2 then
+local args = {
+    [1] = {
+        [1] = "Potions",
+        [2] = "damage"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+            end
+        end
+    end
+)
+
+task.spawn(
+    function()
+        while task.wait(1) do
+            if autoboost3 then
+local args = {
+    [1] = {
+        [1] = "Potions",
+        [2] = "lucky"
+    }
+}
+game:GetService("ReplicatedStorage").Remotes.Server:FireServer(unpack(args))
+            end
+        end
+    end
+)
+
+c:Toggle("Auto Use Lucky",function(bool)
+    getgenv().autoboost3 = bool
+    if bool then
+        autoboost3();
+    end
+end)
+
+c:Toggle("Auto Use Damage",function(bool)
+    getgenv().autoboost2 = bool
+    if bool then
+        autoboost2();
+    end
+end)
+
+c:Toggle("Auto Use Souls",function(bool)
+    getgenv().autoboost1 = bool
+    if bool then
+        autoboost1();
+    end
+end)
+
+c:Toggle("Auto Use Energy",function(bool)
+    getgenv().autoboost = bool
+    if bool then
+        autoboost();
+    end
+end)
+
+local d = w:CreateFolder("Misc")
+
+function antiAfk()
+    task.spawn(function()
+        while task.wait() and getgenv().doAntiAfk do
+            repeat wait() until game:IsLoaded() 
+                game:GetService("Players").LocalPlayer.Idled:connect(function()
+                game:GetService("VirtualUser"):ClickButton2(Vector2.new())
+            end)
+        end
+    end)
+end
+
+d:Toggle("Anti Afk",function(bool)
+    getgenv().doAntiAfk = bool
+    if bool then
+        antiAfk();
+    end
+end)
+
+d:Slider("Walkspeed",{
+    min = 10; 
+    max = 200;
+    precise = true;
+},function(speed)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = speed
+end)
+
+d:Slider("Jump Power",{
+    min = 10; 
+    max = 200;
+    precise = true;
+},function(power)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = power
+end)
+
+d:DestroyGui()
