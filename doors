@@ -1,6 +1,5 @@
-raw print view on pastebin.com
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({IntroText = "Doors GUI v1.2",Name = "Doors", HidePremium = false, SaveConfig = true, ConfigFolder = "DoorsSex"})
+local Window = OrionLib:MakeWindow({IntroText = "Ekoya Götten",Name = "Ekonunki 15cm", HidePremium = false, SaveConfig = true, ConfigFolder = "DoorsSex"})
 if game.PlaceId == 6516141723 then
     OrionLib:MakeNotification({
         Name = "Error",
@@ -443,7 +442,3 @@ coroutine.resume(NotificationCoroutine)
 OrionLib:Init()
 
 task.wait(2)
-Pastebinp receives +1 million paste views per month and doesn't have any advertising profit. Please donate if you are feeling generous! Bitcoin: 1MokUJGur2uJ6MTQNHqPLQvfmyDmzevD8K
-
-DMCA / abuse / general contact: cagriaripm.me
-cagriari.com
